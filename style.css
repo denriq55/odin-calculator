@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/wooden-workplace-with-coffee_23-2147830055.jpg?w=1380&t=st=1717102337~exp=1717102937~hmac=9996e5b8708dba7055dd3d5782d9b41849c87fe7853a5a69a076cda9653b60b0);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(255, 249, 221);
+    
+    
+    
+}
+
+.screen-display {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+    border: 1px solid black;
+    height: 80px;
+    width: 210px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#screen-display-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 22px;
+}
+#screen-display-second {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+
+.main-box {
+    background-color: rgb(243, 223, 189);
+    margin-top: 200px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px 1px  rgb(29, 28, 28);
+    
+    
+}
+
+.buttons {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+#clear,
+#delete,
+#decimal,
+#equals {
+    width: 77px;
+}
+
+#divide,
+#multiply,
+#add,
+#subtract,
+#equals {
+    background-color:rgb(50, 247, 178);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border: 2px grey outset;
+}
+
+button:active {
+    border: grey inset;
+}

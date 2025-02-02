@@ -64,7 +64,8 @@ let isEquals = false
 })
 
 let result 
-//Pick an operator (FIX THIS)
+
+//Pick an operator 
 operators.forEach(operatorbtn => {
     
      operatorbtn.addEventListener("click", (e) => {
